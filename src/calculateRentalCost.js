@@ -2,9 +2,9 @@
 
 const RENT_COST = 40;
 const SHORT_TERM = 3;
-const DISCOUNT_3_DAYS = 20;
+const DISCOUNT_SHORT = 20;
 const LONG_TERM = 7;
-const DISCOUNT_7_DAYS = 50;
+const DISCOUNT_LONG = 50;
 
 /**
  * @param {number} days
