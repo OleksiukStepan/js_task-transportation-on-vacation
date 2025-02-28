@@ -15,11 +15,11 @@ function calculateRentalCost(days) {
   const totalCost = RENT_COST * days;
 
   if (days >= LONG_TERM) {
-    return totalCost - DISCOUNT_7_DAYS;
+    return totalCost - DISCOUNT_LONG;
   }
 
   if (days >= SHORT_TERM) {
-    return totalCost - DISCOUNT_3_DAYS;
+    return totalCost - DISCOUNT_SHORT;
   }
 
   return totalCost;
